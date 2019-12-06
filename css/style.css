@@ -14,7 +14,7 @@ marquee {
   font-weight: 800;
   font-family:sans-serif;
   color:red;
-  scroll-behavior:20000; 
+
 }
 .guitar {
   padding: 50px;
@@ -24,6 +24,30 @@ marquee {
 }
 
 .guitar:hover {
+  transform: scale(1.5);
+}
+.strings {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+
+  margin: 0 ;
+  height: 300px;
+  width:300px;
+}
+
+.strings:hover {
+  transform: scale(1.5);
+}
+.amp {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+
+  margin: 0 ;
+  height: 300px;
+  width:300px;
+}
+
+.amp:hover {
   transform: scale(1.5);
 }
 .home {
